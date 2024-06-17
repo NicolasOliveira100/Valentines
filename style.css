@@ -70,36 +70,3 @@ footer{
     margin-top: 45px;
     transition: all .5s;
 }
-
-@media (max-width: 425px) {
-    body {
-        background-image: none; /* Remover imagem de fundo em telas menores */
-        background-color: #f5abe9; /* Fundo rosa como alternativa */
-    }
-    header {
-        height: 100px; /* Reduzir altura do cabeçalho */
-    }
-    h1 {
-        padding-top: 50px; /* Ajustar espaço do título */
-        font-size: 30px; /* Reduzir tamanho da fonte do título */
-    }
-    #conteiner {
-        padding-top: 20px; /* Ajustar espaço no conteiner principal */
-    }
-    #area {
-        width: 90%; /* Usar largura quase total da tela */
-        height: auto; /* Ajustar altura automaticamente */
-        flex-direction: column; /* Mudar direção para empilhamento */
-        padding: 10px; /* Reduzir padding */
-        margin: 0 auto; /* Centralizar horizontalmente */
-    }
-    .option {
-        width: 100%; /* Usar largura total do container */
-        margin: 10px 0; /* Espaçamento entre opções */
-        font-size: 20px; /* Reduzir tamanho da fonte */
-    }
-    footer {
-        font-size: 30px; /* Ajustar tamanho da fonte do rodapé */
-        margin-top: 20px; /* Ajustar espaço superior */
-    }
-}
